@@ -19,6 +19,10 @@ Makes use of
 ### Version 2.5
 Deprecated the use of the Jamf curtain but kept the ability do so as a function in case it's needed again in the future. Fixed the Audio switching by moving over to SwitchAudioSource. Got rid of the Dock and desktop background settings for the end user as that is now managed again by profiles.
 
+Files:
+- **SINC-Login.zsh**: installed in /usr/local/bin/
+- **edu.stonybrook.sinc.login.plist**: installed in: /Library/LaunchAgents/
+
 ### Local Administrator Settings
 Uses defaults to set the following settings because local admins tend to disable Managed Settings when logging in:
 - Make the admin dir invisible & change permissions.
