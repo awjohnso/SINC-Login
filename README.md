@@ -9,11 +9,13 @@
 ---
 Many of the administrator settings were taken from: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 
-Makes use of macos-brightness found at (https://github.com/mafredri/macos-brightness) installed in /usr/local/bin/
+Makes use of
+- macos-brightness found at https://github.com/mafredri/macos-brightness installed in /usr/local/bin/.
+- SwitchAudioSource found at https://github.com/deweller/switchaudio-osx installed in /usr/local/bin/.
+- desktopper found at https://github.com/scriptingosx/desktoppr installed in /usr/local/bin/.
+- dockutil found at: https://github.com/kcrawford/dockutil installed in /usr/local/bin/.
 
-Makes use of SwitchAudioSource found at (https://github.com/deweller/switchaudio-osx) installed in /usr/local/bin/
-
-Deprected the use of the Jamf curtain but kept them on as functions in case it's needed again in the future.
+Deprecated the use of the Jamf curtain but kept the ability do so as functions in case it's needed again in the future.
 
 ### Local Administrator settings
 Use defaults to set the following settings because local admins tend to disable Managed Settings when logging in:
