@@ -17,7 +17,7 @@ Makes use of
 - alisma found at: https://eclecticlight.co/taccy-signet-precize-alifix-utiutility-alisma/ installed in /usr/local/bin/.
 
 ### Version 2.5
-Deprecated the use of the Jamf curtain but kept the ability do so as a function in case it's needed again in the future. Fixed the Audio switching by moving over to SwitchAudioSource. Got rid of the dock and desktop background settings for the end user as that is now managed again by profiles.
+Deprecated the use of the Jamf curtain but kept the ability do so as a function in case it's needed again in the future. Fixed the Audio switching by moving over to SwitchAudioSource. Got rid of the Dock and desktop background settings for the end user as that is now managed again by profiles.
 
 ### Local Administrator Settings
 Uses defaults to set the following settings because local admins tend to disable Managed Settings when logging in:
